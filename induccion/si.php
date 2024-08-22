@@ -4,7 +4,7 @@ $num2=$_POST['num2'];
 $opcion=$_POST['opcion'];
 $result=0;
 
-// ||  &
+// ||  &&
  
 if ($opcion=="+") {
     $result=$num1+$num2;
