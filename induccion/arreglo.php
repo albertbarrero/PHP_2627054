@@ -9,13 +9,14 @@
     
 <!-- Formulario para la cantidad de campos -->
     <form action="" method="post">
-        <label for="cant"></label>
+        <label for="cant">Cuantos input</label>
         <input type="number" name="cant" id="cant required">
         <input type="submit" value="Enviar">
     </form>
 
     <?php
-        if (isset($_POST['cant'])) {
+        // Formulario para datos
+         if (isset($_POST['cant'])) {
             $cant=$_POST['cant'];
 
             echo '<form action="" method="post">';
@@ -25,13 +26,16 @@
             };
             echo'<input type="submit" value="Enviar">';
             echo '</form>';
-        }
+         }
 
+
+            // mostrando datos
         if (isset($_POST['datos'])) {
         $datos=$_POST['datos'];
-            echo '<ul>';
+            echo '<ol>';
         foreach ($datos as $key => $datos) {
             echo '<li>  dato '.($key+1).': '.$datos.'</li></br>';
+            
         };
 
     };

@@ -1,5 +1,6 @@
 <?php
-include_once 'cliente.php';
+require_once 'cliente.php';
+require_once 'cliente.php';
 include_once 'empleado.php';
 include_once 'nieto.php';
 

@@ -1,6 +1,6 @@
 <?php 
 
-    $numero=2;
+    $numero=1;
 
     while ($numero <= 10) {
         echo "El numero es: ".$numero."<br>";

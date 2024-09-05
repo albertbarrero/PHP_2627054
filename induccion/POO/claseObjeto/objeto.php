@@ -8,7 +8,9 @@ $objeto1=new clase('Cindy', 22);
 echo 'La edad de la persona es: '.$objeto1->getEdad().'<br>';
 
 $objeto2=new clase('Yaneth', 23);
-echo $objeto2->mostrar();
+echo $objeto2->mostrar().'<br>';
 
+$objeto=new animal('capira', 20);
+echo 'El nombre del animal es: '.$objeto->getNom().'<br>';
 
 ?>
