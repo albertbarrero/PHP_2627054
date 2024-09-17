@@ -14,9 +14,10 @@
     </form>
 
     <?php
-    require 'funcion2.php';
+    require_once 'funcion2.php';
         campos();
         mostrar();
+       
     ?>
 </body>
 </html>

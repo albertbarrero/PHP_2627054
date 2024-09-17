@@ -21,7 +21,7 @@
 
             echo '<form action="" method="post">';
             for ($i=0; $i < $cant; $i++) { 
-                echo'<label for="inp'.$i.'">Campo '.$i.'</label>';
+                echo"<label for='inp".$i."'>Campo ".$i."</label>";
                 echo'<input type="number" id="inp'.$i.'" name="datos[]" required></br>';
             };
             echo'<input type="submit" value="Enviar">';
