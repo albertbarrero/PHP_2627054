@@ -15,9 +15,13 @@
 
     <?php
     require_once 'funcion2.php';
-        campos();
-        mostrar();
-       
+    if (isset($_POST['espacio'])) {
+        $espacio = $_POST['espacio'];
+        campos($espacio);
+        
+    } 
+
+    mostrar();
     ?>
 </body>
 </html>

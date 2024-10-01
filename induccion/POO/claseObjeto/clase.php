@@ -2,18 +2,18 @@
 
     class clase{
 
-        // private $nom;
-        // private $edad;
+         private $nom;
+         private $edad;
 
-        // public function __construct($nom, $edad){
-        //     $this->nom=$nom;
-        //     $this->edad=$edad;
-        // }
+         public function __construct($nom, $edad){
+             $this->nom=$nom;
+             $this->edad=$edad;
+         }
 
-        public function __construct(
-            private $nom,
-            private $edad
-        ) {}
+        //  public function __construct(
+        //      private $nom,
+        //      private $edad
+        //  ) {}
 
 
         function getNom(){
@@ -33,10 +33,12 @@
         }  
 
         function mostrar(){
-            echo 'El nombre es: '.$this->nom."<br>". 'La edad es: '.$this->edad;
+            echo 'El nombre es: '.$this->nom .'La edad es: '.$this->edad;
         }
 
         }
+
+        
     
 
 

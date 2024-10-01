@@ -37,10 +37,10 @@ class persona{
 
     public function mostrar(){
         return(
-        "<h2>DATOS PERSONALES</h2>"."<br>".
-        "El nombre es: ".$nombre= $this->nom."<br>".
-        "El numero de documento es: ". $numDoc=$this->numDoc."<br>".
-        "La estatura es: ".$estatura=$this->estatura);
+        "<h2>DATOS PERSONALES</h2> <br>
+        El nombre es: ".$this->nom."<br>
+        El numero de documento es: ".$this->numDoc."<br>
+        La estatura es: ".$this->estatura);
     }
 }
 

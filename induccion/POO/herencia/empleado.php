@@ -1,5 +1,5 @@
 <?php
-
+include_once 'persona.php';
 class empleado extends persona{
 
     private $codEmple;
@@ -20,9 +20,9 @@ class empleado extends persona{
 
     public function mostrar(){
         return(
-            "<h2>DATOS DEL EMPLEADO </h2>".'<br>'.
-            "Nombre del Empleado: ".$nom=$this->getNom().'<br>'.
-            "Codigo del Empleado: ".$codEmple=$this->codEmple.'<br>'
+            "<h2>DATOS DEL EMPLEADO </h2> <br>
+            Nombre del Empleado: ".$this->getNom()."<br>
+            Codigo del Empleado: ".$this->codEmple."<br>"
         );
     }
 } 

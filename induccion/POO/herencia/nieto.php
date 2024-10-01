@@ -19,6 +19,8 @@ public function setCodNieto($codNieto){
     return $this->codNieto=$codNieto;
 }
 
+
+
 }
 
 ?>
