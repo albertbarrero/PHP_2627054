@@ -17,11 +17,10 @@
     require_once 'funcion2.php';
     if (isset($_POST['espacio'])) {
         $espacio = $_POST['espacio'];
-        campos($espacio);
-        
+        campos($espacio); 
     } 
-
     mostrar();
+
     ?>
 </body>
 </html>
